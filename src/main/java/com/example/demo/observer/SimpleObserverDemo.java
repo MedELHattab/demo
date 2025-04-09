@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class SimpleObserverDemo implements CommandLineRunner {
 
     @Override
-    public void run(String... args) {
+        public void run(String... args) {
         System.out.println("\n===== Simple Observer Pattern Demo =====\n");
 
         // Create the subject
